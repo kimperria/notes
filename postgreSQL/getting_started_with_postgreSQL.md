@@ -119,4 +119,4 @@ Terminal will prompt you to confirm all the packages uninstalled. Click yes.
 See image below:
 ![uninstall_postgreSQL_prompt](/postgreSQL/images/uninstall_postgreSQL_prompt.png)
 
-All your protgress files and instance will now be ==permanently== deleted.
+All your prosgress files and instance will now be ==permanently== deleted.

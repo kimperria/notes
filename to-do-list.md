@@ -7,9 +7,12 @@
 - [ ] **How to deploy to heroku**
 - [ ] **How to setup and use github ssh**
 
+### Angular
+Getting started with angular
+: Build up of angular projects
 ### Flask
 Getting started with flask using python
 : Flask app structure
 
 #### Database
-- [ ] **PostgreSQL**
+- [x] **PostgreSQL**

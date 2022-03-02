@@ -18,6 +18,7 @@ Flask.
 
 ## Articles
 
+1. [Get started with postgresql database system](/postgreSQL/getting_started_with_postgreSQL.md)
 ---
 
 ## Extensions and plugins
