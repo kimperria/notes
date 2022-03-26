@@ -59,4 +59,25 @@ output:
 I used django version (4.0.3) as it was the current LTS when writing this documentation.
 
 ## Start django project
+On your terminal, ensure that your virtual env is activated:
 
+Run:
+```bash
+django-admin startproject <name_of_your_project>
+```
+or
+```bash
+django-admin startproject <name_of_your_project> .
+```
+These commands with create a new folder in your current directory.
+
+That's not all, note the period sign at the end of the second command, the (.) sign is used for a so called "better folder structure" such that your special django file "manage.py" will be on your project root folder unlike having in on a separate folder like in the first command.
+
+Run:
+```bash
+(virtual) python manage.py runserver
+```
+
+to test your project on a development server. On your local server address you will be greeted with the default django project welcome page.
+
+## Build first django app in your project
