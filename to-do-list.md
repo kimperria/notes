@@ -16,3 +16,4 @@ Getting started with flask using python
 
 #### Database
 - [x] **PostgreSQL**
+- [x] **Starting a django server**

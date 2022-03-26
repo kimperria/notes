@@ -19,6 +19,8 @@ Flask.
 ## Articles
 
 1. [Get started with postgresql database system](/postgreSQL/getting_started_with_postgreSQL.md)
+
+2. [Start a django server](/starting_a_django_server/starting_a_django_server.md)
 ---
 
 ## Extensions and plugins
