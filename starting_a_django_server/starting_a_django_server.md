@@ -58,6 +58,45 @@ output:
 ```
 I used django version (4.0.3) as it was the current LTS when writing this documentation.
 
+#### Set up Requirements
+Run:
+```bash
+(virtual) touch requirements.txt
+```
+Create a requirements file in your project root folder.
+
+To get us started, I would recommend having:
+```
+asgiref==3.5.0
+backports.zoneinfo==0.2.1
+Django==4.0.3
+gunicorn==20.1.0
+python-decouple==3.6
+sqlparse==0.4.2
+```
+
+Other than django, I have python-decouple and gunicorn and pycopg2
+
+This pips are relevant to handle various app functionalities. Refer more about pip and other python related environment setups from  [pyp.org](https://pypi.org/)
+
+Install python-decouple run:
+```bash
+    pip install python-decouple
+```
+Python decouple pip enables us to access hidden files such as .env files where we store our secret configurations.
+
+Install psycopg2 run:
+```bash
+    pip install psycopg2
+```
+For this project I will be using a PostgreSQL database, [psycopg2](https://pypi.org/project/psycopg2/) is a PostgreSQL database adapter.
+
+Install gunicorn, run:
+```bash
+    pip install gunicorn
+```
+This comes in handy when deploying django project on heroku learn more [gunicorn](https://pypi.org/project/gunicorn/)
+
 ## Start django project
 On your terminal, ensure that your virtual env is activated:
 
@@ -81,3 +120,12 @@ Run:
 to test your project on a development server. On your local server address you will be greeted with the default django project welcome page.
 
 ## Build first django app in your project
+Django allows us to build projects with multiple apps/modules.
+
+Run:
+```bash
+(virtual) python manage.py startapp <name_of_your_app>
+```
+This command will build a folder with your application name on the root project directory.
+
+## Create the first template
