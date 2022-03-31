@@ -12,8 +12,13 @@ Getting started with angular
 : Build up of angular projects
 ### Flask
 Getting started with flask using python
-: Flask app structure
+- [ ] Flask app structure
 
 #### Database
 - [x] **PostgreSQL**
+
+
+### Django
+Getting started with django using python
 - [x] **Starting a django server**
+- [ ] **Create a django app**
