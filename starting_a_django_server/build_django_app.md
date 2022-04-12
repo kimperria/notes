@@ -7,7 +7,7 @@ Run:
 ```
 This command will build a folder with your application name on the root project directory.
 
-
+App folder should contain atleast these modules, admin.py, models.py, init.py, views.py etc...
 ## Test App
 
 
