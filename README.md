@@ -4,7 +4,7 @@ This repositiory holds all the notes of things I have learnt during my software 
 
 ---
 
-#### About [John-Kimani](https://github.com/John-Kimani/John-Kimani.git) 
+#### About [John-Kimani](https://github.com/John-Kimani) 
 I am currently learning **full stack web
 development** using Python, 
 Flask and Django.

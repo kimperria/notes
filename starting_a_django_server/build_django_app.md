@@ -17,11 +17,17 @@ Run:
 ```
 This should create a new application on your root folder with the name users.
 
+###### <small> user story </small>
 ```
-user logic:
-    > user templates
-    > user models
-    > user forms
+user:
+    > A user is our vistor who has intention to interact and explore our platform further at his own free will. 
+    > A user should be able to create a user profile.
+
+technical:
+    > User interacts with:
+        1. User and with or Profile models
+        2. Register and login forms.
+        3. User profile page.
 ```
 
 ### Register new app to a django project
@@ -29,6 +35,7 @@ Application registration is done on the django project.
 Navigate to the project folder, open settings.py file and register the application name under INSTALLED_APPS list.
 
 Custom list should look like:
+###### <small> project-directory/settings.py </small>
 ```
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -43,13 +50,16 @@ There are two ways to registering a django app.
 On the list, create a new string with the app name as its value. i.e
 ```
     ### some already existing apps above
-    'users',
-```
-or
-```
-    ### some already existing apps above
     'users.apps.UsersConfig',
 ```
+or
+
+```
+    ### some already existing apps above
+    'users',
+```
+
+
 
 Remember to put in the comma at the end as installed app django variable is a list.
 
@@ -67,6 +77,7 @@ I will use [django-bootstrap4](https://pypi.org/project/django-bootstrap4/) for 
 
 Just like applications, pips and other additional requirements in django are registered in a similar manner by addding the pip inside the installed application list.
 
+###### <small> project-directory/settings.py </small>
 ```
     ### some already existing apps above
     'bootstrap4',
@@ -101,7 +112,7 @@ Django helps us with most user logic on the background. A new user is required t
 
 Navigate to our users application to create a view function that renders new user registration form.
 
-users/views.py
+###### <small> users/views.py </small>
 ```
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
@@ -130,7 +141,7 @@ The above commands should create two directories; templates and users and one re
 
 Create a simple html that will display our form instance example:
 
-users/templates/users/register.html
+###### <small> users/templates/users/register.html </small>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -160,6 +171,7 @@ users/templates/users/register.html
 ###### Conclusion
 That's it! Your first template is set for display.
 Run:
+###### <small> on your terminal </small>
 ```bash
     python manage.py runserver
 
@@ -177,7 +189,7 @@ Run:
         Quit the server with CONTROL-C.
 ```
 ###### local host development server
-click on the subsequest link provided on your terminal. For this example, my developments server runs on: http://127.0.0.1:8000/ 
+Click on the subsequest link provided on your terminal. For this example, my developments server runs on: http://127.0.0.1:8000/ 
 
 ###### or
 
