@@ -21,4 +21,5 @@ Getting started with flask using python
 ### Django
 Getting started with django using python
 - [x] **Starting a django server**
-- [ ] **Create a django app**
+- [x] **Create a django app**
+- [ ] **Create a django app template**
