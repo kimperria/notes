@@ -4,10 +4,11 @@ This repositiory holds all the notes of things I have learnt during my software 
 
 ---
 
-### About Me
+#### About [John-Kimani](https://github.com/John-Kimani/John-Kimani.git) 
 I am currently learning **full stack web
-development** using Python and
-Flask. 
+development** using Python, 
+Flask and Django.
+
 
 ---
 
