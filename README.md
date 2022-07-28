@@ -24,6 +24,8 @@ Flask and Django.
 2. [Start a django server](/starting_a_django_server/starting_a_django_server.md)
     Sequel in this series:
     - [Build django app](/starting_a_django_server/build_django_app.md)
+
+3. [Create a React with Flask Application](/react/create_react_with_flask_application.md)
 ---
 
 ## Extensions and plugins
